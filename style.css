@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(#fee3f2, #d2f7f0);
+    
+  }
+  .calculator {
+    width: 250px;
+    background-color: white;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  input[type="text"] {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+  }
+  input[type="button"] {
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    font-size: 20px;
+  }
